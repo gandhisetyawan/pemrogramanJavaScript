@@ -118,12 +118,12 @@ Class Method : function atau method yang ada di dalam class.
 
 */
 // Construktor dengan class / cara 1
-// class Mail {
-//     constructor(author) {
-//         this.from = 'pengirim@dicoding.com';
-//         console.log('is instantiated', author);
-//     };
-// }
+class Mail {
+    constructor(author) {
+        this.from = 'pengirim@dicoding.com';
+        console.log('is instantiated', author);
+    };
+}
 
 // Constructor dengan function /cara2
 // function Mail(author) {
@@ -132,4 +132,4 @@ Class Method : function atau method yang ada di dalam class.
 // }
 
 //panggil cara1 / cara2
-// const mail1 = new Mail("emailku@dicoding.com");
+const mail1 = new Mail("emailku@dicoding.com");
